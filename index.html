@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" media="screen" type="text/css" href="./style/default.css">
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="./style/smartphone.css">
     <script src="https://kit.fontawesome.com/e8c72cd5e7.js" crossorigin="anonymous"></script>
     <title>Projet 2 - Intégration d'une maquette</title>
 </head>
@@ -19,8 +20,8 @@
             <div class="header_free"></div>
             <div class="header_nav">
                 <ul>
-                    <li><a href="#">Hébergements</a></li>
-                    <li><a href="#">Activités</a></li>
+                    <li><a href="#hebergements_block">Hébergements</a></li>
+                    <li><a href="#activites_block">Activités</a></li>
                     <li><a href="#"><span class="member_area">S'inscrire</span></a></li>
                 </ul>
             </div>
@@ -69,7 +70,7 @@
             <div id="body_container">
                 <div id="hosting_container">
                     <article>
-                        <h1>Hébergements à Marseille</h1>
+                        <h1 id="hebergements_block">Hébergements à Marseille</h1>
                         <div class="article_container">
                             <a href="#" class="article_block">
                                 <span class="article_picture">
@@ -221,7 +222,7 @@
         </section>
 
         <section>
-            <h1>Activités à Marseille</h1>
+            <h1 id="activites_block">Activités à Marseille</h1>
             <article class="activity_container">
                 <div class="activity_block">
                     <div class="activity_big_block">

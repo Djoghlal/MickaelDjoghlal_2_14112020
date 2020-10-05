@@ -1,0 +1,40 @@
+main {
+    width: auto; /* On défini une marge auto pour éviter les barres de défilement et avoir la largeur de l'écran de l'appareil */
+}
+
+header {
+    width: auto;
+    height: 100px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header_logo img {
+    height: 50px;
+}
+
+.header_nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_nav a {
+    padding: 1.8em;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header_nav a:hover {
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+}
+
+.member_area {
+    color: #0065FC;
+    font-weight: bold;
+}
