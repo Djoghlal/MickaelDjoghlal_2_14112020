@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" media="screen" type="text/css" href="./style/default.css">
-    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="./style/smartphone.css">
+    <link rel="stylesheet" media="all and (max-width: 1024px)" href="./style/smartphone.css">
     <script src="https://kit.fontawesome.com/e8c72cd5e7.js" crossorigin="anonymous"></script>
     <title>Projet 2 - Intégration d'une maquette</title>
 </head>
@@ -17,14 +17,21 @@
                     <img src="images/logo/Reservia@3x.png" alt="Reservia_logo"/>
                 </a>
             </div>
-            <div class="header_free"></div>
-            <div class="header_nav">
+            <div class="header_nav hide_mobile_nav">
                 <ul>
                     <li><a href="#hebergements_block">Hébergements</a></li>
                     <li><a href="#activites_block">Activités</a></li>
-                    <li><a href="#"><span class="member_area">S'inscrire</span></a></li>
                 </ul>
             </div>
+            <div class="header_register">
+                <a href="#">S'inscrire</a>
+            </div>
+            <div class="show_mobile_nav">
+                <ul>
+                    <li><a href="#hebergements_block">Hébergements</a></li>
+                    <li><a href="#activites_block">Activités</a></li>
+                </ul>
+            </div>         
         </header>
 
         <section>
