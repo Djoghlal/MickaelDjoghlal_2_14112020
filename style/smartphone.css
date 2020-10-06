@@ -98,3 +98,23 @@ section {
 #info_container {
     margin: 0px;
 }
+
+
+#hosting_container {
+    width: auto;
+    flex-wrap: wrap-reverse;
+}
+
+#hosting_container article, #hosting_container aside {
+    width: 100%;
+    padding: 15px 20px 10px 20px;
+}
+
+.aside_block {
+    padding: 0px;
+}
+
+.article_container {
+    width: auto;
+    flex-wrap: wrap;
+}
