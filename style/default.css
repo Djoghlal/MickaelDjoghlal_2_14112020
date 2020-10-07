@@ -358,8 +358,8 @@ article h1, aside h1, section h1 {
 .activity_block {
     width: 22%;
     height: 350px;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    margin: 0px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

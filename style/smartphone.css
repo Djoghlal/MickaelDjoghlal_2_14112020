@@ -1,4 +1,4 @@
-main {
+body, main {
     width: auto; /* On défini une marge auto pour éviter les barres de défilement et avoir la largeur de l'écran de l'appareil */
 }
 
@@ -61,6 +61,9 @@ header {
 section {
     width: auto;
     margin: -20px 0 0 0;
+}
+
+section h1, section p {
     padding: 0 20px 0 20px;
 }
 
@@ -69,6 +72,7 @@ section {
     justify-content: center;
     align-items: center;
     margin: 0px;
+    padding: 0 20px 0 20px;
 }
 
 .search_submit {
@@ -83,7 +87,7 @@ section {
     width: auto;
     height: auto;
     flex-wrap: wrap;
-    padding: 0 0 30px 0;
+    padding: 0 20px 30px 20px;
     margin: 20px 0 0 0;
 }
 
@@ -97,6 +101,7 @@ section {
 
 #info_container {
     margin: 0px;
+    padding: 0 20px 0 20px;
 }
 
 
@@ -108,13 +113,64 @@ section {
 #hosting_container article, #hosting_container aside {
     width: 100%;
     padding: 15px 20px 10px 20px;
+    margin: 0px;
+    border-radius: 0px;
 }
 
-.aside_block {
-    padding: 0px;
+#hosting_container article {
+    background-color: #FFFFFF;
+}
+
+.aside_block, .article_block {
+    padding: 4px 0 4px 0;
 }
 
 .article_container {
+    width: 100%;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.article_block {
+    width: 100%;
+    border-radius: 20px;
+    margin: 0 0 10px 0;
+}
+
+.activity_container {
+    flex-direction: column;
+    margin: 0px;
+    padding: 0 20px 0 20px;
+}
+
+.activity_block {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    border-radius: 15px;
+    margin: 0 0 20px 0;
+}
+
+.activity_big_picture, .activity_small_picture {
+    height: 150px;
+}
+
+footer {
+    background-color: #F2F2F2;
+    margin: 50px 0 0 0;
+}
+
+.footer_container {
     width: auto;
-    flex-wrap: wrap;
+    margin: 0px;
+    flex-direction: column;
+}
+
+.footer_column_title {
+    font-weight: bold;
+}
+
+.footer_column {
+    width: auto;
+    padding: 0 0 0 20px;
 }
