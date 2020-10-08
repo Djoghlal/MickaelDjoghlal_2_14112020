@@ -10,30 +10,29 @@
     <title>Projet 2 - Intégration d'une maquette</title>
 </head>
 <body>
+    <header>
+        <div class="header_logo">
+            <a href="#">
+                <img src="images/logo/Reservia@3x.png" alt="Reservia_logo"/>
+            </a>
+        </div>
+        <div class="header_nav hide_mobile">
+            <ul>
+                <li><a href="#hebergements_block">Hébergements</a></li>
+                <li><a href="#activites_block">Activités</a></li>
+            </ul>
+        </div>
+        <div class="header_register">
+            <a href="#">S'inscrire</a>
+        </div>
+        <div class="show_mobile">
+            <ul>
+                <li><a href="#hebergements_block">Hébergements</a></li>
+                <li><a href="#activites_block">Activités</a></li>
+            </ul>
+        </div>         
+    </header>
     <main>
-        <header>
-            <div class="header_logo">
-                <a href="#">
-                    <img src="images/logo/Reservia@3x.png" alt="Reservia_logo"/>
-                </a>
-            </div>
-            <div class="header_nav hide_mobile">
-                <ul>
-                    <li><a href="#hebergements_block">Hébergements</a></li>
-                    <li><a href="#activites_block">Activités</a></li>
-                </ul>
-            </div>
-            <div class="header_register">
-                <a href="#">S'inscrire</a>
-            </div>
-            <div class="show_mobile">
-                <ul>
-                    <li><a href="#hebergements_block">Hébergements</a></li>
-                    <li><a href="#activites_block">Activités</a></li>
-                </ul>
-            </div>         
-        </header>
-
         <section>
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
@@ -45,7 +44,7 @@
                         <input type="search" class="search_input_container" name="search_input_container" placeholder="Votre recherche" />
                     </div>
                     <div class="search-button">
-                        <button type="submit" class="search_submit hide_mobile" name="search_submit">Recherche</button>
+                        <button type="submit" class="search_submit hide_mobile" name="search_submit">Rechercher</button>
                         <button type="submit" class="search_submit show_mobile" name="search_submit"><i class="fas fa-search"></i></button>
                     </div>
                 </form>
